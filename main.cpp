@@ -7,7 +7,7 @@
 
  
 int main(int argc, char*argv[]) {
-    std::string fullName = argc > 1 ? argv[1] : "Stephen Chung???";
+    std::string fullName = argc > 1 ? argv[1] : "Stephen Chung??????";
     auto lt = libTest::libTest(fullName);
 
     auto msgs = libTest::Message(); 
